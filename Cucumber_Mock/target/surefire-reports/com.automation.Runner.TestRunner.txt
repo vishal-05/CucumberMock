@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.automation.Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.153 s <<< FAILURE! -- in com.automation.Runner.TestRunner
+Verify scenario of website.Verify user can place an order -- Time elapsed: 0.201 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.automation.utils.ConfigReader.prop" is null
+	at com.automation.utils.ConfigReader.getConfigValue(ConfigReader.java:21)
+	at com.automation.pages.LoginPage.openWebsite(LoginPage.java:20)
+	at com.automation.steps.LoginSteps.user_open_website(LoginSteps.java:14)
+	at ✽.user open website(file:///C:/Users/leet3/IdeaProjects/Cucumber_Mock/src/test/resources/features/MockTest.feature:5)
+
